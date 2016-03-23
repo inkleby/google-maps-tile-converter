@@ -42,8 +42,8 @@ def resize_and_save(img,save_loc,size=tile_size):
 def get_initial_image(img):
     
     """
-    resizes images downwards to the max zoom level - reduced reduced
-    and the zoom level
+    resizes images downwards to the max zoom level 
+    returns the reduced images and the zoom level
     """
     width, height = img.size
     max_size = -1
